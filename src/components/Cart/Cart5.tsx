@@ -1,9 +1,8 @@
 import { cart } from '../../utils/carttype';
 import { Link } from 'react-router-dom';
-import { TbStarFilled } from 'react-icons/tb';
 import "./style.css"
 
-const Cart4 = (prop:cart) => {
+const Cart5 = (prop:cart) => {
     return (
         <div className="cart cart4">
         <div className="image">
@@ -13,17 +12,10 @@ const Cart4 = (prop:cart) => {
             <Link to="" className="title text-[var(--color-text)]">
                 {prop.title}
             </Link>
-                <Link to="" className="text-[var(--color-text2)]">الفصل 61</Link>
-
-            <div className="flex gap-[5px] text-[color:var(--color-text2)] font-Fira">
-                    <TbStarFilled className='text-[var(--color-text2)]'/>
-                    <p className='text-[var(--color-text2)]'>3.9</p>
-            </div>
-                
-
+                <Link to="" className="chapter text-[#888]">فانتازيا</Link>
         </div>
     </div>
     );
 }
 
-export default Cart4;
+export default Cart5;

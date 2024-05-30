@@ -1,4 +1,5 @@
 import Completed from '../components/Home/Completed';
+import New from '../components/Home/New';
 import Popular from '../components/Home/Popular';
 import Update from '../components/Home/Update';
 
@@ -8,6 +9,7 @@ const Home = () => {
         <Popular/>
         <Update/>
         <Completed/>
+        <New/>
     </div>
   )
 }

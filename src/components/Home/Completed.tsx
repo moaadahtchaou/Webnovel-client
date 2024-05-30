@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import Cart4 from '../Cart/Cart4';
 import endless from "../../assets/Endless.jpeg";
@@ -18,7 +17,7 @@ const Completed = () => {
             </div>
             <hr />
         </div>
-        <div className="carts2 grid gap-[25px] grid-cols-[repeat(auto-fit,minmax(130px,max-content))] mx-[25px] my-0">
+        <div className="carts2 grid gap-[25px] grid-cols-[repeat(auto-fit,minmax(110px,max-content))] mx-[25px] my-0 max767:grid-cols-[repeat(auto-fit,minmax(100px,max-content))]">
             <Cart4 title='مسار لا نهاية له' imganime={endless}/>
             <Cart4 title="القس المجنون" imganime={reverend}/>
             <Cart4 title="مستحضر الأرواح" imganime={stronest}/>
