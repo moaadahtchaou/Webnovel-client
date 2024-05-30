@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from "./components/NavBar";
 import Rightbarlayout from "./components/Rightbar";
 import Home from "./pages/Home";
+import Novel from "./pages/Novel";
 
 
 
@@ -17,7 +18,7 @@ function App() {
               <Route path="/" element={<Rightbarlayout/>}>
                 <Route index element={<Home/>}/>
               </Route>
-
+              <Route path="/solo" element={<Novel/>}/>
           </Routes>
 
 

@@ -22,6 +22,10 @@ const Completed = () => {
             <Cart4 title="القس المجنون" imganime={reverend}/>
             <Cart4 title="مستحضر الأرواح" imganime={stronest}/>
             <Cart4 title="رفع المستوى" imganime={solo}/>
+            <Cart4 title='مسار لا نهاية له' imganime={endless}/>
+            <Cart4 title="القس المجنون" imganime={reverend}/>
+            <Cart4 title="مستحضر الأرواح" imganime={stronest}/>
+            <Cart4 title="رفع المستوى" imganime={solo}/>
 
 
 

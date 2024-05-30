@@ -20,6 +20,10 @@ const Update = () => {
                 <Cart3 title="مسار لا نهاية له" imganime={endless}/>
                 <Cart3 title="القس المجنون" imganime={reverend}/>
                 <Cart3 title="رفع المستوى" imganime={solo}/>
+                <Cart3 title="مستحضر الأرواح" imganime={stronest}/>
+                <Cart3 title="مسار لا نهاية له" imganime={endless}/>
+                <Cart3 title="القس المجنون" imganime={reverend}/>
+
             </div>
 
 

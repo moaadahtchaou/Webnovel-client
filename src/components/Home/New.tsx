@@ -21,6 +21,12 @@ const New = () => {
             <Cart5 title="القس المجنون" imganime={reverend}/>
             <Cart5 title="مستحضر الأرواح" imganime={stronest}/>
             <Cart5 title="رفع المستوى" imganime={solo}/>
+            <Cart5 title='مسار لا نهاية له' imganime={endless}/>
+            <Cart5 title="القس المجنون" imganime={reverend}/>
+            <Cart5 title="مستحضر الأرواح" imganime={stronest}/>
+            <Cart5 title="رفع المستوى" imganime={solo}/>
+            <Cart5 title='مسار لا نهاية له' imganime={endless}/>
+            <Cart5 title="القس المجنون" imganime={reverend}/>
         </div>
     </div>
 
