@@ -28,7 +28,7 @@
 }
 
 .navbar .btn {
-    @apply no-underline leading-[48px] text-[rgba(255,255,255,0.7)] font-normal hover:text-[#ffffff];
+    @apply no-underline leading-[48px] text-[rgba(255,255,255,0.7)] font-medium hover:text-[#ffffff];
 }
   .line {
     @apply fill-none stroke-white stroke-[6];

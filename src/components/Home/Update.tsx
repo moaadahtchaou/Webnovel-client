@@ -15,7 +15,7 @@ const Update = () => {
                 </div>
             </div>
 
-            <div className="carts grid gap-[15px] grid-cols-[repeat(auto-fit,minmax(240px,max-content))] mx-[30px] my-0 max767:grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
+            <div className="carts grid gap-[15px] grid-cols-[repeat(auto-fit,minmax(260px,max-content))] mx-[30px] my-0 max767:grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
                 <Cart3 title="مستحضر الأرواح" imganime={stronest}/>
                 <Cart3 title="مسار لا نهاية له" imganime={endless}/>
                 <Cart3 title="القس المجنون" imganime={reverend}/>

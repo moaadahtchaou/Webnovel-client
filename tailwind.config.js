@@ -30,7 +30,8 @@ export default {
 
     },
     fontFamily: {
-      'Messiri': "El Messiri",
+      'NotoKufi':["Noto Kufi Arabic", "sans-serif"],
+      "Cairo":["Cairo", "sans-serif"],
       "Fira": ["Fira Sans", "sans-serif"],
     }
   },

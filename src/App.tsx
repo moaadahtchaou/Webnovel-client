@@ -11,7 +11,7 @@ function App() {
 
   return (
   <BrowserRouter>
-    <div className="global font-Messiri m-0 p-0 box-border leading-[1.15]">
+    <div className="global font-Cairo m-0 p-0 box-border leading-[1.15]">
       <NavBar/>
         <section className="cocontainer mt-24">
           <Routes>
