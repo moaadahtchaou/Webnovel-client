@@ -5,7 +5,7 @@
 }
 
 .barp{
-  @apply my-2 mx-7 text-[var(--color-text);]
+  @apply my-2 mx-7 text-[var(--color-text)] font-bold;
 }
 
 .containerbg{

@@ -39,7 +39,7 @@ const NavBar = () => {
 
     };
     return (
-        <div className="navbar bg-[#1c8b78] mb-12 fixed z-[9999] top-0 w-[100%] font-NotoKufi">
+        <div className="navbar bg-[var(--color-main)] mb-12 fixed z-[9999] top-0 w-[100%] font-elmessiri">
             <div className="cocontainer flex items-center justify-between h-12 max767:my-0 max767:mx-3">
                 <div className="flex items-center gap-[15px]"> 
                     <div className="Dark-Light">

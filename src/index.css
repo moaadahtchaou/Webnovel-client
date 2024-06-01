@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Noto+Kufi+Arabic:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&family=Noto+Kufi+Arabic:wght@100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /*Dark/Light Mode */
 html {
+    --color-main:#1c8b78;
     --color-main-bg: #f5f5f5;
     --color-bg:#fff;
     --color-bg2: #f1f1f1;
     --color-line:#ececec;
-    --color-text: #000;
+    --color-text: #313131;
     --color-text2:#1c8b78;
     --color-genre:#888;
+    --color-novel:#eee;
     background: var(--color-main-bg);
   }
   html.active{
@@ -20,8 +21,8 @@ html {
     --color-bg:#222222;
     --color-bg2: #333;
     --color-line:#19181e  ;
-    --color-text:#fff;
+    --color-text:#eee;
     --color-text2:#888;
     --color-genre:#888;
-  
+    --color-novel:#040305;
   }

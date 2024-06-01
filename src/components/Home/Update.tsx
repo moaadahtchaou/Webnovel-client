@@ -9,7 +9,7 @@ const Update = () => {
     return (
         <div className="update containerbg">
             <div className="bar bg-[#1c8b78] ">
-                <p className="barp text-white">أخر التحديثات</p>
+                <p className="barp text-slate-100">أخر التحديثات</p>
                 <div className="All">
                     <Link to="">إظهار الكل</Link>
                 </div>

@@ -13,7 +13,7 @@ function App() {
   <BrowserRouter>
     <div className="global font-Cairo m-0 p-0 box-border leading-[1.15]">
       <NavBar/>
-        <section className="cocontainer mt-24">
+        <section className="mt-24">
           <Routes>
               <Route path="/" element={<Rightbarlayout/>}>
                 <Route index element={<Home/>}/>

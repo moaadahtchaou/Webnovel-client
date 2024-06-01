@@ -7,10 +7,10 @@ const Cart3 = ({title,imganime}:cart) => {
     return (
         <div className="cart flex gap-[15px] bg-[#879bb024] px-2.5 py-[5px] rounded-[5px]">
             <div className="image w-[60%] s:w-[45%] sm:w-[60%]">
-                <img className='w-full rounded-[5px] aspect-[1/1.5] object-cover' src={imganime} alt="" />
+                <img className='w-full rounded-[5px] aspect-[1/1.5] object-cover 2xl:aspect-[1/1.3]' src={imganime} alt="" />
             </div>
             <div className="Info   text-[color:var(--color-text)] text-sm flex flex-col justify-center text-white gap-2.5 w-full">
-                <Link to="" className="title  text-[var(--color-text)]">
+                <Link to="" className="title font-medium text-[var(--color-text)]">
                     {title}
                 </Link>
                 <div className="chapters flex flex-col gap-2.5">

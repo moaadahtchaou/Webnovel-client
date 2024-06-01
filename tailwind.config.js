@@ -8,7 +8,7 @@ export default {
     extend: {},
     screens:{
       's': '400px',
-      
+
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -35,6 +35,7 @@ export default {
       'NotoKufi':["Noto Kufi Arabic", "sans-serif"],
       "Cairo":["Cairo", "sans-serif"],
       "Fira": ["Fira Sans", "sans-serif"],
+      "elmessiri": "El Messiri"
     }
   },
   plugins: [],

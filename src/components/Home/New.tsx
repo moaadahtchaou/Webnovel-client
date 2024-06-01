@@ -10,7 +10,7 @@ const New = () => {
     return (
         <div className="new green-bg containerbg">
             <div className="bar bg-[#1c8b78]">
-                <p className="barp text-white">أضيف حديثًا</p>
+                <p className="barp text-slate-100">أضيف حديثًا</p>
                 <div className="All">
                     <Link to="">إظهار الكل</Link>
                 </div>
