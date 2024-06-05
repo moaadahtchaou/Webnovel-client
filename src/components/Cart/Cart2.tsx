@@ -10,7 +10,7 @@ const Cart2=(prop:cart) => {
             </div>
             <div className="Info flex flex-col gap-[15px] w-full text-white max1092:gap-[5px]">
                 <div className="td flex flex-col gap-2.5 max1092:gap-[5px]">
-                    <Link to="" className="title text-sm font-medium hover:text-[#9ea0a0] max1092:text-xs">
+                    <Link to="/solo" className="title text-sm font-medium hover:text-[#9ea0a0] max1092:text-xs">
                     {prop.title?(()=>{
                     if (prop.title.length > 14) {
                         const lastSpaceIndex = prop.title.substring(0, 14).lastIndexOf(' ')
