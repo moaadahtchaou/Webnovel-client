@@ -16,3 +16,30 @@ html.active .info{
 .info .novel-info svg {
     @apply inline
 }
+/*chapter*/
+.chapters .chapters{
+    @apply p-1  pr-2
+}
+.chapters .chapters a{
+    @apply p-1  pr-2 py-3
+}
+
+.chapters .chapters a:nth-child(2n + 1) {
+    @apply bg-[var(--color-bg2)]
+}
+
+.chapters .chapters a:hover{
+    @apply bg-[#1c8b78]
+}
+.chapters .chapters a:hover p{
+    @apply text-white
+}
+.chapters .chapters a p:nth-child(1){
+    @apply w-2/5 sm:w-1/5
+}
+.chapters .chapters a p:nth-child(3){
+    @apply hidden md:block
+}
+.chapters .chapters a p:nth-child(4){
+    @apply hidden sm:block
+}

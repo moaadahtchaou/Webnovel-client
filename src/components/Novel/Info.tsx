@@ -21,15 +21,15 @@ const Info = () => {
     const novel = novelData
     return (
         <div className=" bg-[var(--color-novel)]">
-            <div className="cocontainer 2xl:w-[880px] ">
+            <div className="cocontainer lg:w-[880px] ">
                 <div className="novel-details py-10 ">
-                    <div dir="rtl" className="flex gap-8 ">
-                        <img src={reverend} alt={novel.title} className=" h-96 rounded-[5px]" />
+                    <div dir="rtl" className="flex gap-8 flex-col items-center sm:items-start sm:flex-row ">
+                        <img src={reverend} alt={novel.title} className=" w-48 sm:w-auto sm:h-64 lg:h-96 rounded-[5px]" />
                         <div className="novel-info flex flex-col gap-1">
-                            <p className=" px-2 py-1 bg-[var(--color-text)] text-[var(--color-bg)] rounded-[5px] w-fit text-[13px]">مستمرة</p>
-                            <p className=" text-[25px] text-[var(--color-text)] tracking-wider">{novel.title}</p>
-                            <p className="text-[var(--color-1)] mt-1 text-[15px] ">{novel.titles}</p>
-                            <div className="moreinfo my-2 grid grid-cols-[auto,auto] gap-2 pr-1">
+                            <p className=" self-center sm:self-start px-2 py-1 bg-[var(--color-text)] text-[var(--color-bg)] rounded-[5px] w-fit text-[13px]">مستمرة</p>
+                            <p className=" self-center sm:self-start text-[25px] text-[var(--color-text)] tracking-wider">{novel.title}</p>
+                            <p className=" self-center sm:self-start text-[var(--color-1)] mt-1 text-[15px] ">{novel.titles}</p>
+                            <div className="moreinfo pr-1 my-2 grid grid-cols-1 gap-4 sm:grid-cols-[auto,auto] sm:gap-3">
                                 <span>
                                     <p>المؤلف</p>
                                     <p>
@@ -63,6 +63,8 @@ const Info = () => {
                                 showTooltip
                                 rtl
                                 tooltipStyle={{ fontSize: 12 }}
+                                readonly
+                                initialValue={4.5}
                             />
                             <div className="desc mt-3">
                                 <p className="text-[var(--color-text)] tracking-wide leading-normal font-NotoKufi font-light">

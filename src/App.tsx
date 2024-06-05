@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Rightbarlayout from "./components/Rightbar";
 import Home from "./pages/Home";
 import Novel from "./pages/Novel";
+import Footer from "./components/Footer";
 
 
 
@@ -20,10 +21,8 @@ function App() {
               </Route>
               <Route path="/solo" element={<Novel/>}/>
           </Routes>
-
-
         </section>
-
+      <Footer/>
     </div>
   </BrowserRouter>
   )
